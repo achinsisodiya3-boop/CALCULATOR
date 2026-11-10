@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:rgb(181, 138, 138);
+    /* display:flex; */
+    justify-content:center;
+
+    
+}
+.heading{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+
+
+
+.container{
+    /* margin-top: 5rem; */
+    /* display:flex; */
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+    width:320px;
+    /* height: 200px;; */
+    margin:0 auto;
+    padding:15px;
+    background-color:rgb(48, 48, 54);
+}
+
+.keys{
+    /* display:flex; */
+    /* justify-content:center */
+    /* align-items:center; */
+display:grid;
+grid-template-columns: repeat(4, 1fr);
+gap:10px;
+box-sizing:border-box;
+font-size:28px;
+text-align:right; 
+margin-top:15px; 
+
+    
+}
+
+.display{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    width:100%;
+    background-color:rgb(253, 253, 255);
+    color:black;
+    font-size:1rem;
+}
+
+.keys button:active{
+    background-color:aqua;
+    color:whitesmoke;
+    
+    
+    justify-content:space-evenly;
+}
+
+
+#equals{
+    background-color:orange;
+
+    color:white;
+
+}
+
+#add{
+    background-color:purple;
+
+    color:white;
+
+}
+
+#subtract{
+    background-color:purple;
+
+    color:white;
+
+}
+
+
+#multiply{
+    background-color:purple;
+
+    color:white;
+
+}
+
+
+#divide{
+    background-color:purple;
+
+    color:white;
+
+}
+
+
+#dot{
+    background-color:purple;
+
+    color:white;
+
+}
+
+#clear{
+    background-color:maroon;
+    color:white;
+}
+
+
